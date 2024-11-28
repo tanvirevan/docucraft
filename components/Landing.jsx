@@ -22,7 +22,7 @@ export default function Landing() {
               <div className="mt-10 flex flex-wrap gap-4 justify-center">
                 <Link
                   href="/docs/introduction"
-                  className="inline-flex justify-center rounded-lg bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:bg-slate-700"
+                  className="inline-flex justify-center rounded-3xl bg-slate-900 px-4 py-3 text-md font-bold text-white hover:bg-slate-700"
                 >
                   <span>Get Started</span>
                 </Link>

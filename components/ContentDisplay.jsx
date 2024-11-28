@@ -20,7 +20,7 @@ import Tag from "./Tag";
           category.
         </div>
 
-        <div>
+        <div className="bg-none">
           {documentContent.tags &&
           documentContent.tags.map((tag) => <Tag key={tag} tag={tag} />)}
         </div>
