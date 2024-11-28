@@ -10,7 +10,7 @@ export default function Logo()
               src= "/logo.svg"
               alt="Logo"
               width={100}
-              height={24}
+              height={25}
               priority
           />
         </Link>
