@@ -1,4 +1,4 @@
-import Logo from "/Logo";
+import Logo from "./Logo";
 import Search from "./Search";
 import Sidebar from "./Sidebar";
 import Image from "next/image";
