@@ -1,4 +1,4 @@
-import Logo from "./Logo";
+import Logo from "/Logo";
 import Search from "./Search";
 import Sidebar from "./Sidebar";
 import Image from "next/image";
@@ -14,7 +14,7 @@ const Header = ({docs}) => {
 
 
                 {/* Mobile Responsive Header Starts  */}
-                {/* <div className="flex items-center justify-start gap-5 lg:hidden">
+                <div className="flex items-center justify-start gap-5 lg:hidden">
                     <button type="button "
                         className="flex h-6 w-6 items-center justify-start rounded-md transition hover:bg-zinc-900/5 dark:hover:bg-white/5"
                         aria-label="Toggle navigation">
@@ -35,7 +35,7 @@ const Header = ({docs}) => {
                             height={100}
                         />
                     </Link>
-                </div> */}
+                </div>
                 {/* Mobile Responsive Header Ends */}
                 <Search  docs={docs}/>
 
